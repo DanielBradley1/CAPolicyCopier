@@ -1,0 +1,45 @@
+/* Styling for the notification */
+.ca-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    z-index: 10000;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    animation: slide-in 0.3s ease-out forwards;
+}
+
+.ca-notification-info {
+    background-color: #0078d4;
+}
+
+.ca-notification-success {
+    background-color: #107c10;
+}
+
+.ca-notification-error {
+    background-color: #d13438;
+    padding-right: 40px;
+}
+
+.ca-notification-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "CA Policy Copier",
+  "version": "0.1",
+  "description": "Copy Conditional Access policy JSON to clipboard or download as a file.",
+  "manifest_version": 3,
+  "permissions": [
+    "webRequest",
+    "clipboardWrite",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://entra.microsoft.com/*",
+    "https://graph.microsoft.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://entra.microsoft.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "24": "icons/icon48.png",
+      "32": "icons/icon128.png"
+    },
+    "default_title": "Entra CA Policy Copy"
+  }
+}
