@@ -6,7 +6,7 @@
 
 CA Policy Coplier is a Chrome extension that enhances the Microsoft Entra Conditional Access portal by adding convenient options to copy and download policy configurations as JSON.
 
-![Extension Demo](images/extensiondemo.png)
+![Extension Demo](Images/ExtensionDemo.png)
 
 ## Features
 
