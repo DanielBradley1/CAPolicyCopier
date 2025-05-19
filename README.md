@@ -1,4 +1,4 @@
-# CA Policy Coplier
+# CA Policy Copier
 
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/DanielatOCN)
 [![LinkedIn: Daniel Bradley](https://img.shields.io/badge/LinkedIn-Daniel%20Bradley-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/danielbradley2/) 
